@@ -50,4 +50,21 @@ Sonrasında goldberg faucet kanalına gidiyoruz.
 
 ![Ekran görüntüsü 2023-11-20 114845](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/c138336c-f0fa-4477-b71c-a86759229120)
 
+3 saatte bir token alma hakkımız var ve Idenity işlemi için bize minimum 11 AVAIL gerekli olacak işlemde hata alırsanız, bekleyip tekrar token talep edebilirsiniz.
+
+## Idenity
+
+![Ekran görüntüsü 2023-11-20 115238](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/a5c3bddb-9f5f-4e10-85b0-06867572c48e)
+
+Cüzdanımızın yanında bulunan üç noktaya basıyoruz.
+
+Set on-chain identity. sekmesine tıklıyoruz ve bizden aşağıdaki bilgileri isteyecek;
+
+![Ekran görüntüsü 2023-11-20 115405](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/6ca84b04-070e-43c4-9b94-010e56e1a074)
+
+Buradaki bilgileri verdikten sonra, alt bölümde 10 AVL token stake etmemizi istiyor, bu nedenle cüzdanınızda 10'dan fazla AVL token olması gerekiyor.
+
+
+
+
 
