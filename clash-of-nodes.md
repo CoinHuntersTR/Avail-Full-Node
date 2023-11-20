@@ -1,15 +1,16 @@
-# Clash of Nodes
+# Clash of Nodes Challenges
 ![Ekran görüntüsü 2023-11-20 112654](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/d6766e4c-c907-40db-92ff-c6d6c50e821d)
 
-* Avail Ödüllü Testnet Süreci devam ediyor. Seçilenlerin yaptığı görevler dışında herkesin katılabileceği görevlerde mevcut.
-* Bu rehberde herkesin katılabildiği görevi nasıl yapacağınızı sizlere gösterelim.
-* Node için seçimler devam ediyor. 
+* Avail Ödüllü Testnet Süreci devam ediyor.
+* Node ve seçilen validatorlerin yaptığı görevleri listede görebilirsiniz.
+* Herkese açık olan görevleri hızlıca yapalım.
 
-# 1
+
+## 1 Polkadot Cüzdan Oluşturma;
 
 İlk olarak, bu işlemleri yapabilmek için polkadot cüzdana ihtiyacımız olacak. Daha önce polkadot cüzdan oluşturmadıysanız. [BURADAN](https://coinhunterstr.com/polkadot-cuzdan-nasil-olusturulur-2/) adımları takip ederek oluşturabilirsiniz. 
 
-# 2
+## 2 Tool üzerinden cüzdan oluşturma;
 Polkadot cüzdan eklentisi ile uğraşmak istemiyorsanız. [BURADAN](https://goldberg.avail.tools/#/explorer) Avail Explorer gidiyoruz ve tool içinden cüzdan oluşturabilirsiniz. Accounts -> Accounts bölümüne ilerliyoruz 
 
 ![image](https://docs.availproject.org/img/avail/account.png)
@@ -34,13 +35,13 @@ next tuşuna basıyoruz,
 
 Bu ekranda gizli kelimeleri ve diğer adımları gösteriyor. SAVE diyerek cüzdanımızı oluşturuyoruz.
 
-## İşlemleri tamamladıktan sonra;
+## 3 İşlemleri tamamladıktan sonra;
 
 ![Ekran görüntüsü 2023-11-20 114524](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/56c2f2b7-e43e-488a-8acc-ddd041986604)
 
 Burada üç farklı cüzdan görüyorsunuz. Sizde bir tane cüzdan olacak. Cüzdan isminizin üzerine bastığınızda, sağda cüzdan detayları açılacak oradan cüzdan adresinizi kopyalaıyoruz. Genellikle cüzdan adresini 5.... ile başlar.
 
-## Faucetten Token isteme
+## 4 Faucetten Token isteme
 
 Avail'in [BURADAN](https://discord.gg/SmkjjSNq) discord kanalına giriyoruz ve doğrulama adımlarını tamamlıyoruz. 
 
@@ -52,7 +53,7 @@ Sonrasında goldberg faucet kanalına gidiyoruz.
 
 3 saatte bir token alma hakkımız var ve Idenity işlemi için bize minimum 11 AVAIL gerekli olacak işlemde hata alırsanız, bekleyip tekrar token talep edebilirsiniz.
 
-## Idenity
+## 5 Idenity
 
 ![Ekran görüntüsü 2023-11-20 115238](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/a5c3bddb-9f5f-4e10-85b0-06867572c48e)
 
@@ -68,9 +69,10 @@ Bu adımları doğru şekilde yaptıysanız. Cüzdan isminize tıkladığınızd
 
 ![Ekran görüntüsü 2023-11-20 115750](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/2c2d97ee-353f-4e78-8d7a-692f0b44c46b)
 
-## Leaderboard Bölümü
+## 6 Leaderboard Bölümü
 
-Tüm adımları doğru şekilde yaptıysanız, leaderboard bölümünde adınızın görünmesi gerekir. 50 puan ödül kazanmış olacaksınız. Birçok ödül validatorler için seçimler bitene kadar diğer ödülleri toplamak gerekiyor, bu nedenle bu adımı hızlı şekilde hemen yapın.
+Tüm adımları doğru şekilde yaptıysanız, leaderboard bölümünde adınızın görünmesi gerekir.Bu adımı yaparak 50 puan ödül kazanmış olacaksınız. 
+Bir çok farklı ödül  var, fakat seçilmiş validatorler bu ödülleri kazanıyor. Seçimler henüz Bitmedi. Seçimler bitmeden herkesin yapabildiği işlemleri mutlaka tamamlayın.
 
 [BURADAN](https://leaderboard.availproject.org/) kontrollerinizi yapabilirsiniz.
 
