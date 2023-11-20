@@ -1,5 +1,6 @@
 <h1 align="center"> Avail Node Rehberi
   
+![image](https://pbs.twimg.com/profile_banners/1508458204866486283/1687262602/1500x500)
 
 ## Sistem gereksinimleri:
 NODE TİPİ | CPU     | RAM      | SSD     |
