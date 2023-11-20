@@ -90,3 +90,4 @@ sudo systemctl stop availd.service
 ```
 ## ÖNEMLİ NOTLAR;
 Yukarıdaki adımları tamamladıktan sonra [BURADAN](https://telemetry.avail.tools/#list/0xd12003ac837853b062aaccca5ce87ac4838c48447e41db4a3dcfb5bf312350c6) kendi node'unuzu bulmanız gerekiyor. Ağ ile senkronize olduktan sonra, alttaki formu doldurmayı unutmayın.
+[BURADAN](https://docs.google.com/forms/d/e/1FAIpQLScvgXjSUmwPpUxf1s-MR2C2o5V79TSoud1dLPKVgeLiLFuyGQ/viewform) formu doldurarak, işlemi tamamlıyoruz.
