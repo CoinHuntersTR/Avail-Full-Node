@@ -82,6 +82,7 @@ sudo systemctl status availd.service
 ```
 ### "Role" bölümünde "FULL NODE" ve "Node Name" bölümünde adınızı görüyorsanız. Sorunsuz şekilde kurulmuş demektir.
 
+Log kayıtlarını görmek için aşağıdaki komutları kullanabilirsiniz.
 ```
 journalctl -f -u availd
 ```
