@@ -62,7 +62,21 @@ Set on-chain identity. sekmesine tıklıyoruz ve bizden aşağıdaki bilgileri i
 
 ![Ekran görüntüsü 2023-11-20 115405](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/6ca84b04-070e-43c4-9b94-010e56e1a074)
 
-Buradaki bilgileri verdikten sonra, alt bölümde 10 AVL token stake etmemizi istiyor, bu nedenle cüzdanınızda 10'dan fazla AVL token olması gerekiyor.
+Buradaki bilgileri verdikten sonra tüm alanları doldurmak zorunda değilsiniz. İstediğiniz bilgileri verebilirsiniz. 
+
+Bu adımları doğru şekilde yaptıysanız. Cüzdan isminize tıkladığınızda,aşağıdaki gibi görünmesi gerekiyor.
+
+![Ekran görüntüsü 2023-11-20 115750](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/2c2d97ee-353f-4e78-8d7a-692f0b44c46b)
+
+## Leaderboard Bölümü
+
+Tüm adımları doğru şekilde yaptıysanız, leaderboard bölümünde adınızın görünmesi gerekir. 50 puan ödül kazanmış olacaksınız. Birçok ödül validatorler için seçimler bitene kadar diğer ödülleri toplamak gerekiyor, bu nedenle bu adımı hızlı şekilde hemen yapın.
+
+[BURADAN](https://leaderboard.availproject.org/) kontrollerinizi yapabilirsiniz.
+
+Aşağıdaki resimdeki gibi kendinzi bulmanız gerekiyor.
+
+![Ekran görüntüsü 2023-11-20 120340](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/060a8cc5-d857-43d2-8e9a-b6f450e2566f)
 
 
 
