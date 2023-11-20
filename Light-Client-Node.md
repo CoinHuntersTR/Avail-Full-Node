@@ -31,66 +31,45 @@ cp avail-light-linux-amd64 avail-light
 ```
 ![ekran1](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/e00af19d-f18d-45b2-b51f-810098f8b171)
 
-```
-git clone https://github.com/availproject/avail.git
-```
+## Sistem Dosyalarını oluşturuyoruz.
 
 ```
-screen -S avail
+touch /etc/systemd/system/availd.service
+nano /etc/systemd/system/availd.service
 ```
-```
-cd avail
-```
-```
-cargo build --release -p data-avail
-```
-```
-mkdir -p output
-```
-```
-git checkout v1.7.2
-```
-```
-cargo run --locked --release -- --chain kate -d ./output
-```
-### Çıktı sonrasında CTRL+C basarak durduruyoruz.
 
-```
-sudo touch /etc/systemd/system/availd.service
-```
-```
-sudo nano /etc/systemd/system/availd.service
-```
 Aşağıdaki kodda "adiniz" olan yere validatör adınızı girin. Kodu yapıştırdıktan sonra CTRL X-Y Enter ile çıkın.
 
 ```
-[Unit]
-Description=Avail Validator
+[Unit] 
+Description=Avail Light Client
 After=network.target
 StartLimitIntervalSec=0
-[Service]
-User=root
-ExecStart= /root/avail/target/release/data-avail --base-path `pwd`/data --chain kate --name "adiniz"
-Restart=always
+[Service] 
+User=root 
+ExecStart=/root/avail-light/avail-light --network goldberg --name "adiniz"
+Restart=always 
 RestartSec=120
-[Install]
+[Install] 
 WantedBy=multi-user.target
+
 ```
 ```
-sudo systemctl start availd.service
+systemctl enable availd.service
 ```
 ```
-sudo systemctl status availd.service
+systemctl start availd.service
 ```
-### "Role" bölümünde "FULL NODE" ve "Node Name" bölümünde adınızı görüyorsanız. Sorunsuz şekilde kurulmuş demektir.
+```
+systemctl status availd.service
+```
+![ekran2](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/ec63219a-9b14-4a28-9502-6e801f3b0458)
 
 Log kayıtlarını görmek için aşağıdaki komutları kullanabilirsiniz.
 ```
 journalctl -f -u availd
 ```
-## System Durdurma için;
-```
-sudo systemctl stop availd.service
-```
-## ÖNEMLİ NOTLAR;
-Light Node Başvuru Formu : [BURADAN](https://docs.google.com/forms/d/e/1FAIpQLSeL6aXqz6vBbYEgD1cZKaQ4vwbN2o3Rxys-wKTuKySVR-oS8g/viewform) Full Node dışında light Node içinde başvuru yapabilirsiniz. 
+
+
+## ÖNEMLİ NOT;
+Light Node Başvuru Formu : [BURADAN](https://docs.google.com/forms/d/e/1FAIpQLSeL6aXqz6vBbYEgD1cZKaQ4vwbN2o3Rxys-wKTuKySVR-oS8g/viewform) formu doldurmayı unuatmayın.
