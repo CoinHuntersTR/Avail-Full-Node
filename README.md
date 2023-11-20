@@ -95,4 +95,5 @@ Yukarıdaki adımları tamamladıktan sonra [BURADAN](https://telemetry.avail.to
 [BURADAN](https://docs.google.com/forms/d/e/1FAIpQLScvgXjSUmwPpUxf1s-MR2C2o5V79TSoud1dLPKVgeLiLFuyGQ/viewform) formu doldurarak, işlemi tamamlıyoruz.
 
 Light Node Başvuru Formu : [BURADAN](https://docs.google.com/forms/d/e/1FAIpQLSeL6aXqz6vBbYEgD1cZKaQ4vwbN2o3Rxys-wKTuKySVR-oS8g/viewform) Full Node dışında light Node içinde başvuru yapabilirsiniz. 
-Ayrıca discord kanallarına katılmayı unutmayın. [BURADAN](https://discord.gg/SmkjjSNq) 
+
+Ayrıca discord kanallarına  [BURADAN](https://discord.gg/SmkjjSNq)  katılmayı unutmayın.
