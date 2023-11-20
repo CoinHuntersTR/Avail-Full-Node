@@ -27,3 +27,27 @@ I Haved ... kutucuğunu işaretliyoruz ve submmit diyerek devam ediyoruz.
 Sonrasında cüzdanımız için bir isim belirleyip şifremizi tanımlıyoruz.
 
 ![Ekran görüntüsü 2023-11-20 114219](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/ad57cddc-8c06-448e-a5ad-e46e25061e0d)
+
+next tuşuna basıyoruz,
+
+![Ekran görüntüsü 2023-11-20 114322](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/81b60fde-4b1c-47d6-a340-2e1432a983e4)
+
+Bu ekranda gizli kelimeleri ve diğer adımları gösteriyor. SAVE diyerek cüzdanımızı oluşturuyoruz.
+
+## İşlemleri tamamladıktan sonra;
+
+![Ekran görüntüsü 2023-11-20 114524](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/56c2f2b7-e43e-488a-8acc-ddd041986604)
+
+Burada üç farklı cüzdan görüyorsunuz. Sizde bir tane cüzdan olacak. Cüzdan isminizin üzerine bastığınızda, sağda cüzdan detayları açılacak oradan cüzdan adresinizi kopyalaıyoruz. Genellikle cüzdan adresini 5.... ile başlar.
+
+## Faucetten Token isteme
+
+Avail'in [BURADAN](https://discord.gg/SmkjjSNq) discord kanalına giriyoruz ve doğrulama adımlarını tamamlıyoruz. 
+
+Sonrasında goldberg faucet kanalına gidiyoruz. 
+
+/deposit komutunu yazdığınızda aşağıdaki gibi bir komut girdikten sonra, cüzdan adresimizi ekliyoruz.
+
+![Ekran görüntüsü 2023-11-20 114845](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/c138336c-f0fa-4477-b71c-a86759229120)
+
+
