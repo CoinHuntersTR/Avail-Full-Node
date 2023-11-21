@@ -45,7 +45,7 @@ Burada üç farklı cüzdan görüyorsunuz. Sizde bir tane cüzdan olacak. Cüzd
 
 Avail'in [BURADAN](https://discord.gg/SmkjjSNq) discord kanalına giriyoruz ve doğrulama adımlarını tamamlıyoruz. 
 
-Sonrasında goldberg faucet kanalına gidiyoruz. 
+Sonrasında goldberg faucet kanalına gidiyoruz. (token istemek için discordda en az 6 tane mesaj atmanız gerekiyor.)
 
 /deposit komutunu yazdığınızda aşağıdaki gibi bir komut girdikten sonra, cüzdan adresimizi ekliyoruz.
 
