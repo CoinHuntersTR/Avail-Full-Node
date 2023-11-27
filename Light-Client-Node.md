@@ -18,64 +18,84 @@ wget -O avail-light.sh https://raw.githubusercontent.com/CoinHuntersTR/Avail-Ful
 ```
 sudo apt-get update -y && sudo apt-get upgrade -y
 ```
-
+## Sistem Gereksinimlerini yüklüyoruz.
 ```
-sudo apt install make clang pkg-config libssl-dev build-essential
+sudo apt install curl tar wget clang pkg-config protobuf-compiler libssl-dev jq build-essential protobuf-compiler bsdmainutils git make ncdu gcc git jq chrony liblz4-tool -y
 ```
+## Rust Yükleyelim
 ```
-mkdir -p ${HOME}/avail-light
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source ~/.cargo/env
+rustup default stable
+rustup update
+rustup update nightly
+rustup target add wasm32-unknown-unknown --toolchain nightly
 ```
+## Binary Yükleyip kuruyoruz.
 ```
-wget https://github.com/availproject/avail-light/releases/download/v1.7.3/avail-light-linux-amd64.tar.gz
+git clone https://github.com/availproject/avail-light.git
+cd avail-light
+wget -O config.yaml https://raw.githubusercontent.com/thenhthang/vinnodes/main/Avail/config.yaml
+git checkout v1.7.3
+cargo build --release
+cp -r target/release/avail-light /usr/local/bin
 ```
+## Servis Dosyasını oluşturalım
 ```
-tar -xvzf avail-light-linux-amd64.tar.gz
-cp avail-light-linux-amd64 avail-light
-```
-```
-./avail-light --network goldberg
-```
-![ekran1](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/e00af19d-f18d-45b2-b51f-810098f8b171)
-
-## Sistem Dosyalarını oluşturuyoruz.
-
-```
-touch /etc/systemd/system/availd.service
-nano /etc/systemd/system/availd.service
-```
-
-Aşağıdaki kodda "adiniz" olan yere validatör adınızı girin. Kodu yapıştırdıktan sonra CTRL X-Y Enter ile çıkın.
-
-```
-[Unit] 
+sudo tee /etc/systemd/system/availightd.service > /dev/null <<EOF
+[Unit]
 Description=Avail Light Client
-After=network.target
-StartLimitIntervalSec=0
-[Service] 
-User=root 
-ExecStart=/root/avail-light/avail-light --network goldberg
-Restart=always 
-RestartSec=120
-[Install] 
+After=network-online.target
+
+[Service]
+User=$USER
+ExecStart=$(which avail-light) --config $HOME/avail-light/config.yaml --network goldberg
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=65535
+
+[Install]
 WantedBy=multi-user.target
-
+EOF
+```
+## Kayıt ve Servisi Çalıştıralım
+```
+sudo systemctl daemon-reload
 ```
 ```
-systemctl enable availd.service
+sudo systemctl enable availightd
 ```
 ```
-systemctl start availd.service
+sudo systemctl restart availightd
+```
+## Log Kayıtları ve İzleme
+### Log kayıtlarını görmek için aşağıdaki komutları kullanabilirsiniz.
+```
+journalctl -f -u availdjournalctl -f -u availightd.service
+```
+### Light Client tarafından işlenen son blok
+```
+journalctl -f -u availdjournalctl -f -u availightd.service
+```
+### Light Client gerekli diğer komutlar
+```
+curl "http://localhost:7000/v1/latest_block"
 ```
 ```
-systemctl status availd.service
+curl "http://localhost:7000/v1/confidence/1"
 ```
-![ekran2](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/ec63219a-9b14-4a28-9502-6e801f3b0458)
-
-Log kayıtlarını görmek için aşağıdaki komutları kullanabilirsiniz.
 ```
-journalctl -f -u availd
+curl "http://localhost:7000/v1/appdata/1?decode=true"
 ```
-
+```
+curl "localhost:7000/v1/status"
+```
+```
+curl "localhost:7000/v1/latest_block"
+```
+```
+curl -I "localhost:7000/health"
+```
 
 ## ÖNEMLİ NOT;
 Light Node Başvuru Formu : [BURADAN](https://docs.google.com/forms/d/e/1FAIpQLSeL6aXqz6vBbYEgD1cZKaQ4vwbN2o3Rxys-wKTuKySVR-oS8g/viewform) formu doldurmayı unuatmayın.
