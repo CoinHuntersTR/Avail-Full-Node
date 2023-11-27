@@ -7,7 +7,13 @@ NODE TİPİ | CPU     | RAM      | SSD     |
 | Avail  | 2          | 4         | 80  |
   
 
-# Kurulum
+# Script ile kurulum
+
+```
+wget -O avail-light.sh https://raw.githubusercontent.com/CoinHuntersTR/Avail-Full-Node/main/avail-light.sh && chmod +x avail-light.sh && ./avail-light.sh
+```
+
+# Manuel Kurulum
 
 ```
 sudo apt-get update -y && sudo apt-get upgrade -y
