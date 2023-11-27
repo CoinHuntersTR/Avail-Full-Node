@@ -73,10 +73,6 @@ sudo systemctl restart availightd
 ```
 journalctl -u availd -fo cat
 ```
-### Light Client tarafından işlenen son blok
-```
-journalctl -f -u availdjournalctl -f -u availightd.service
-```
 ### Light Client gerekli diğer komutlar
 ```
 curl "http://localhost:7000/v1/latest_block"
