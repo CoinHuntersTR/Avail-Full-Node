@@ -2,9 +2,9 @@
   
 
 ## Sistem gereksinimleri:
-NODE TİPİ | CPU     | RAM      | SSD     || SSD     |
-| ------------- | ------------- | ------------- | -------- || -------- |
-| Avail  | 2          | 4         | 80  || Ubuntu 22  |
+NODE TİPİ | CPU     | RAM      | SSD     |
+| ------------- | ------------- | ------------- | -------- |
+| Ubuntu 22  | 2          | 4         | 80  |
   
 
 # Script ile kurulum
