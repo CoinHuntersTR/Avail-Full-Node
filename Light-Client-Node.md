@@ -71,7 +71,7 @@ sudo systemctl restart availightd
 ## Log Kayıtları ve İzleme
 ### Log kayıtlarını görmek için aşağıdaki komutları kullanabilirsiniz.
 ```
-journalctl -f -u availdjournalctl -f -u availightd.service
+journalctl -u availd -fo cat
 ```
 ### Light Client tarafından işlenen son blok
 ```
