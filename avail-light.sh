@@ -36,7 +36,7 @@ echo -e "\e[1m\e[32m3. Downloading and building binaries... \e[0m" && sleep 1
 git clone https://github.com/availproject/avail-light.git
 cd avail-light
 wget -O config.yaml https://raw.githubusercontent.com/thenhthang/vinnodes/main/Avail/config.yaml
-git checkout v1.7.3
+git checkout v1.7.4
 cargo build --release
 sudo cp $HOME/avail-light/target/release/avail-light /usr/local/bin
 # create service
