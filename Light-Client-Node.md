@@ -36,7 +36,7 @@ rustup target add wasm32-unknown-unknown --toolchain nightly
 git clone https://github.com/availproject/avail-light.git
 cd avail-light
 wget -O config.yaml https://raw.githubusercontent.com/thenhthang/vinnodes/main/Avail/config.yaml
-git checkout v1.7.3
+git checkout v1.7.4
 cargo build --release
 cp -r target/release/avail-light /usr/local/bin
 ```
