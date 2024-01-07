@@ -30,6 +30,7 @@ wget https://github.com/availproject/avail/releases/download/v1.8.0.4/x86_64-ubu
 ```
 ```
 tar xvzf x86_64-ubuntu-2204-data-avail.tar.gz
+```
 
 * coinhunters yazısını değiştirmeyi unutmayın.
 ```
