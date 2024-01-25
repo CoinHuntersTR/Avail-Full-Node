@@ -87,7 +87,7 @@ cargo build --release
 
 # Not: BURADA size yeni bir AVAIL adresi verecek onu AVAIL'de puan kastığımız cüzdan ile değiştireceğiz.
 
-İlk olarak aşağıdaki komutu giriyoruz. "" dahil aradaki notu app verdiğin isimle değiştiriyorsun.
+İlk olarak aşağıdaki komutu giriyoruz. "" dahil aradaki notu silip  app'e verdiğin isimle değiştiriyorsun.
 ```
 nano /root/.madara/app-chains/"Verdiğin App name ismi"/da-config.json
 ```
