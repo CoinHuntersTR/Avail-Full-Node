@@ -27,7 +27,8 @@ source $HOME/.cargo/env
 ```
 rustc --version
 ```
-* versionumuz: version: rustc 1.75.0
+* versionumuz: rustc 1.75.0 (82e1608df 2023-12-21)
+
 ### Git kuruyoruz.
 ```
 sudo apt install git
