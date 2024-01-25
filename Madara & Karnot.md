@@ -96,3 +96,18 @@ nano /root/.madara/app-chains/"Verdiğin App name ismi"/da-config.json
 * Benzer bir sayda açılacak "seed":"0x... yazan yerdeki private key silip Cüzdan kelimelerimizi ekliyoruz. Son bölümdeki cüzdan adresini de AVAIL'deki cüzdan adresiyle değiştiriyoruz.
 
 * CTRL X Y ve ENTER basıyoruz.
+
+### Gerekli Portları açıyoruz.
+```
+sudo ufw enable
+sudo ufw allow 22
+sudo ufw allow 4000
+sudo ufw allow 5353
+sudo ufw allow 47250
+sudo ufw allow 39276
+sudo ufw allow 36347
+sudo ufw allow 43759
+sudo ufw allow 40815
+sudo ufw allow 30333
+sudo ufw allow 9944
+```
