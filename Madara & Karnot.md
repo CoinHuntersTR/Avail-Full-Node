@@ -1,4 +1,4 @@
-<h1 align="center"> Madara  Karnot
+<h1 align="center"> Madara & Karnot
   
 ![image](https://pbs.twimg.com/media/GEs4hlUXAAEf03M?format=jpg&name=large)
 
