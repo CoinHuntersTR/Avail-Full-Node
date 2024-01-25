@@ -18,7 +18,7 @@ sudo apt-get update -y && sudo apt-get upgrade -y
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-(https://github.com/CoinHuntersTR/Avail-Full-Node/issues/3#issue-2101116392)
+![Ekran görüntüsü 2024-01-25 231300](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/fcfb956e-ab50-4e9d-a957-41556e883f41)
 ```
 source $HOME/.cargo/env
 ```
