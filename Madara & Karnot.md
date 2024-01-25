@@ -57,9 +57,6 @@ sudo apt install docker-ce
 sudo systemctl start docker
 ```
 ```
-sudo systemctl start docker
-```
-```
 sudo systemctl enable docker
 ```
 
