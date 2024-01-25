@@ -37,8 +37,27 @@ rustc --version
 sudo apt install git
 ```
 ### Docker Kuruyoruz.
+
 ```
-sudo apt install docker-ce
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+```
+```
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+```
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+```
+```
+sudo apt update
+```
+```
+sudo systemctl start docker
+```
+```
+sudo systemctl start docker
+```
+```
+sudo systemctl enable docker
 ```
 
 ### Tekrar Güncelliyoruz.
@@ -113,3 +132,26 @@ sudo ufw allow 40815
 sudo ufw allow 30333
 sudo ufw allow 9944
 ```
+### Yeni bir screen açalım
+```
+sudo apt install screen
+```
+```
+screen -S roller
+```
+### App-chaini çalıştırıyoruz.
+
+```
+./target/release/madara run
+```
+Çalıştıktan sonra bloklar akmaya başladığında CTRL A+D ile çıkıyoruz.
+
+### Exlporer sayfamızı çalıştıralım
+```
+./target/release/madara explorer
+```
+Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize ait explorer ulaşabilirsiniz.
+
+![Ekran görüntüsü 2024-01-26 003113](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/b568b4b2-d4ab-4e9d-a2df-92c06fe9afb3)
+
+
