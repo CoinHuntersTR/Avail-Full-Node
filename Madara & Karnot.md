@@ -1,6 +1,6 @@
 <h1 align="center"> Madara  Karnot
   
-![image](https://pbs.twimg.com/profile_banners/1508458204866486283/1687262602/1500x500)
+![image](https://pbs.twimg.com/media/GEs4hlUXAAEf03M?format=jpg&name=large)
 
 ## Sistem gereksinimleri:
 ### Ubunutu 22.04
@@ -22,12 +22,12 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 source $HOME/.cargo/env
 ```
-Rust versionu kontrol edelim;
+* Rust versionu kontrol edelim;
 ```
 rustc --version
 // version: rustc 1.75.0
 ```
-
+### Git kuruyoruz.
 ```
 sudo apt install git
 ```
