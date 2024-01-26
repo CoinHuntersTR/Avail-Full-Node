@@ -157,11 +157,11 @@ Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize
 ### En son App yayınlayalım
 
 * Bu adımları tamamladıktan sonra;
-[BURADAN] (https://github.com/karnotxyz/avail-campaign-listing) github reposunu forkluyoruz.
+[BURADAN](https://github.com/karnotxyz/avail-campaign-listing) github reposunu forkluyoruz.
 
 ![Ekran görüntüsü 2024-01-26 103651](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/d14f85bc-aa0d-427a-ae74-e751792082ed)
 
-Forkladıktan sonra, kendi forkumuzdan Upload File seçiyoruz.
+Forkladıktan sonra, kendi forkumuzdan Upload File seçiyoruz. Aşağıdaki komutları kendinize göre düzenleyip JSON dosyası yapıyoruz.
 
 ```
 {
@@ -170,7 +170,7 @@ Forkladıktan sonra, kendi forkumuzdan Upload File seçiyoruz.
   "rpc_url": "http://SUNUCU IP ADRESIN:9944",
   "explorer_url": "http://SUNUCU IP ADRESIN:4000",
   "metrics_endpoint": "http://SUNUCU IP ADRESIN:9615",
-  "id": "" // ./target/release/madara run komutu başlattığınızda aşağıdaki görselde bulunan ID alıp yazıyoruz.
+  "id": ""  // ./target/release/madara run komutu başlattığınızda aşağıdaki görselde bulunan ID alıp yazıyoruz.
 }
 ```
 * ID bulmak için aşağıdaki görselde bulunan yerden kopyalabilirsiniz.
@@ -178,9 +178,12 @@ Forkladıktan sonra, kendi forkumuzdan Upload File seçiyoruz.
 ![Ekran görüntüsü 2024-01-26 021909](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/f033b0b4-59ab-49f4-b99b-5e939efc0ec4)
 
 
-* Eğer app çalıştırddıysanız screen içine girip Ctrl + C ile durdurup ./target/release/madara run tekrar çalıştırıp ID alabilirsiniz. 
+* Eğer app çalıştırddıysanız screen içine girip Ctrl + C ile durdurup ./target/release/madara run tekrar çalıştırıp ID alabilirsiniz. İşiniz bittikten sonra Ctrl A D ile screen içinden çıkabilirsiniz.
 
 * Yukarıdaki komutları düzenleyip, upload yapıyoruz. Sonrası PR açıp onaylanmasını bekleyeceğiz.
+
+  # Önemli Not:
+  * Faucet şuan çok az miktar veriyor 1 gün çalıştırma sonucunda 40 AVL yakın harcıyor. Bu nedenle discord duyurularını takip edip, Faucet düzeldiğinde kurmanız daha iyi olacaktır.
 
 
 
