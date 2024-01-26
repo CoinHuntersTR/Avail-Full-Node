@@ -154,4 +154,33 @@ Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize
 
 ![Ekran görüntüsü 2024-01-26 003113](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/b568b4b2-d4ab-4e9d-a2df-92c06fe9afb3)
 
+### En son App yayınlayalım
+
+* Bu adımları tamamladıktan sonra;
+[BURADAN] (https://github.com/karnotxyz/avail-campaign-listing) github reposunu forkluyoruz.
+
+![Ekran görüntüsü 2024-01-26 103651](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/d14f85bc-aa0d-427a-ae74-e751792082ed)
+
+Forkladıktan sonra, kendi forkumuzdan Upload File seçiyoruz.
+
+```
+{
+  "name": "App İsminiz",
+  "logo": "https://placehold.co/400x400", // 400x400 boyutunda logo herhangi bir yere yükleyip linkini alabilirsiniz.
+  "rpc_url": "http://SUNUCU IP ADRESIN:9944",
+  "explorer_url": "http://SUNUCU IP ADRESIN:4000",
+  "metrics_endpoint": "http://SUNUCU IP ADRESIN:9615",
+  "id": "" // ./target/release/madara run komutu başlattığınızda aşağıdaki görselde bulunan ID alıp yazıyoruz.
+}
+```
+* ID bulmak için aşağıdaki görselde bulunan yerden kopyalabilirsiniz.
+
+![Ekran görüntüsü 2024-01-26 021909](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/f033b0b4-59ab-49f4-b99b-5e939efc0ec4)
+
+
+* Eğer app çalıştırddıysanız screen içine girip Ctrl + C ile durdurup ./target/release/madara run tekrar çalıştırıp ID alabilirsiniz. 
+
+* Yukarıdaki komutları düzenleyip, upload yapıyoruz. Sonrası PR açıp onaylanmasını bekleyeceğiz.
+
+
 
