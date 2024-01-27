@@ -189,9 +189,15 @@ Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize
 
 ![Ekran görüntüsü 2024-01-27 215811](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/e75cae6d-b503-49ed-b73b-222a1ee56d1c)
 
-Forkladıktan sonra app-chain klasörüne giriyoruz.
+Forkladıktan sonra app-chains klasörüne giriyoruz.
 
 ![Ekran görüntüsü 2024-01-27 215936](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/0437e175-a142-44c7-a465-d48ef194dd89)
+
+* Buradan hazırladığımız json dosyasını buraya yüklüyoruz. 
+
+![Ekran görüntüsü 2024-01-27 220708](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/38efaa74-0a00-499a-93f7-5f66d3ff3853)
+
+Yükledikten sonra sağ üstten Pull Request yapıyoruz. Başlık bölümüne ✨ Adding verdiğiniz app ismi şeklinde yazabilirsiniz.
 
 
 
