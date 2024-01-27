@@ -148,6 +148,8 @@ screen -S roller
 
 ### Exlporer sayfamızı çalıştıralım
 ```
+cd
+cd madara-cli
 ./target/release/madara explorer
 ```
 Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize ait explorer ulaşabilirsiniz.
@@ -170,20 +172,32 @@ Forkladıktan sonra, kendi forkumuzdan Upload File seçiyoruz. Aşağıdaki komu
   "rpc_url": "http://SUNUCU IP ADRESIN:9944",
   "explorer_url": "http://SUNUCU IP ADRESIN:4000",
   "metrics_endpoint": "http://SUNUCU IP ADRESIN:9615",
-  "id": ""  // ./target/release/madara run komutu başlattığınızda aşağıdaki görselde bulunan ID alıp yazıyoruz.
-}
+  "id": "" 
 ```
-* ID bulmak için aşağıdaki görselde bulunan yerden kopyalabilirsiniz.
+* ID almak için [BURADAN](https://www.uuidgenerator.net/) siteye gidiyoruz. Refresh yapıyoruz. çıkan ID alıp kopyalıyoruz.
 
-![Ekran görüntüsü 2024-01-26 021909](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/f033b0b4-59ab-49f4-b99b-5e939efc0ec4)
+### Burada dikkat edin! Oluşturacağınız json dosyasına aldığınız ID ismini vermeniz gerekiyor.
 
 
-* Eğer app çalıştırddıysanız screen içine girip Ctrl + C ile durdurup ./target/release/madara run tekrar çalıştırıp ID alabilirsiniz. İşiniz bittikten sonra Ctrl A D ile screen içinden çıkabilirsiniz.
+![Ekran görüntüsü 2024-01-27 215100](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/3f519de4-93c8-4167-8545-786729ba784c)
+
+400x400 boyutunnda bir resim ayarlıyoruz. [BURADAN](https://resimlink.com/)
+
+![Ekran görüntüsü 2024-01-27 215606](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/b336b64a-e32c-44b3-b8b3-e7b5d320fe18)
+
+* Resim Direkt linki alıp Yukarıdaki json dosyanıza ekleyebilirsiniz.
 
 * Yukarıdaki komutları düzenleyip, upload yapıyoruz. Sonrası PR açıp onaylanmasını bekleyeceğiz.
 
-  # Önemli Not:
-  * Faucet şuan çok az miktar veriyor 1 gün çalıştırma sonucunda 40 AVL yakın harcıyor. Bu nedenle discord duyurularını takip edip, Faucet düzeldiğinde kurmanız daha iyi olacaktır.
+## PR Açıyoruz.
+
+[BURADAN](https://github.com/karnotxyz/avail-campaign-listing) buraya gidiyoruz ve ilk olarak Forkluyoruz.
+
+![Ekran görüntüsü 2024-01-27 215811](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/e75cae6d-b503-49ed-b73b-222a1ee56d1c)
+
+Forkladıktan sonra app-chain klasörüne giriyoruz.
+
+![Ekran görüntüsü 2024-01-27 215936](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/0437e175-a142-44c7-a465-d48ef194dd89)
 
 
 
