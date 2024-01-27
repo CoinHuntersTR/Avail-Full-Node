@@ -108,6 +108,9 @@ cargo build --release
 
 # Not: BURADA size yeni bir AVAIL adresi verecek onu AVAIL'de puan kastığımız cüzdan ile değiştireceğiz.
 
+# Not-2: Eğer ilk defa katılacaksanız. Aşağıdaki komutu çalıştırıp içindeki bilgileri bir yere not edin. Devam etmeden önce AVAIL discordundan [BURADAN](https://discord.gg/availproject) giriyoruz. Gitcoin pass puanımızın 20 ve üzerinde olması gerekiyor. Discord ve Gitcoin Pass doğrulamasını yaptıktan sonra Goldberg Faucet kanalından node içinde oluşan cüzdana token istiyoruz. Tokenler geldikten sonra aşağıdaki işlemlere devam ediyoruz.
+
+
 İlk olarak aşağıdaki komutu giriyoruz. "" dahil aradaki notu silip  app'e verdiğin isimle değiştiriyorsun.
 ```
 nano /root/.madara/app-chains/"Verdiğin App name ismi"/da-config.json
