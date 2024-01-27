@@ -169,7 +169,8 @@ Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize
   "rpc_url": "http://SUNUCU IP ADRESIN:9944",
   "explorer_url": "http://SUNUCU IP ADRESIN:4000",
   "metrics_endpoint": "http://SUNUCU IP ADRESIN:9615",
-  "id": "" 
+  "id": "" ,
+}
 ```
 * ID almak için [BURADAN](https://www.uuidgenerator.net/) siteye gidiyoruz. Refresh yapıyoruz. çıkan ID alıp kopyalıyoruz.
 
