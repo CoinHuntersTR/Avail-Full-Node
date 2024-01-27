@@ -158,13 +158,7 @@ Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize
 
 ### En son App yayınlayalım
 
-* Bu adımları tamamladıktan sonra;
-[BURADAN](https://github.com/karnotxyz/avail-campaign-listing) github reposunu forkluyoruz.
-
-![Ekran görüntüsü 2024-01-26 103651](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/d14f85bc-aa0d-427a-ae74-e751792082ed)
-
-Forkladıktan sonra, kendi forkumuzdan Upload File seçiyoruz. Aşağıdaki komutları kendinize göre düzenleyip JSON dosyası yapıyoruz.
-
+Önce aşağıdaki örnek olan komutları uyarılara göre düzenliyoruz.
 ```
 {
   "name": "App İsminiz",
@@ -176,9 +170,6 @@ Forkladıktan sonra, kendi forkumuzdan Upload File seçiyoruz. Aşağıdaki komu
 ```
 * ID almak için [BURADAN](https://www.uuidgenerator.net/) siteye gidiyoruz. Refresh yapıyoruz. çıkan ID alıp kopyalıyoruz.
 
-### Burada dikkat edin! Oluşturacağınız json dosyasına aldığınız ID ismini vermeniz gerekiyor.
-
-
 ![Ekran görüntüsü 2024-01-27 215100](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/3f519de4-93c8-4167-8545-786729ba784c)
 
 400x400 boyutunnda bir resim ayarlıyoruz. [BURADAN](https://resimlink.com/)
@@ -187,7 +178,10 @@ Forkladıktan sonra, kendi forkumuzdan Upload File seçiyoruz. Aşağıdaki komu
 
 * Resim Direkt linki alıp Yukarıdaki json dosyanıza ekleyebilirsiniz.
 
-* Yukarıdaki komutları düzenleyip, upload yapıyoruz. Sonrası PR açıp onaylanmasını bekleyeceğiz.
+* Yukarıdaki komutları düzenleyiyoruz. Bir tane json dosyası oluşturuyoruz. Dosya isminiz aldığınız ID ismi olacaktır.
+
+![Ekran görüntüsü 2024-01-27 220406](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/67f0ebd0-44eb-4309-bae2-39fd9286dc37)
+
 
 ## PR Açıyoruz.
 
@@ -198,6 +192,8 @@ Forkladıktan sonra, kendi forkumuzdan Upload File seçiyoruz. Aşağıdaki komu
 Forkladıktan sonra app-chain klasörüne giriyoruz.
 
 ![Ekran görüntüsü 2024-01-27 215936](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/0437e175-a142-44c7-a465-d48ef194dd89)
+
+
 
 
 
