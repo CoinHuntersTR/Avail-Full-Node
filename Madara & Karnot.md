@@ -164,8 +164,8 @@ Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize
 Önce aşağıdaki örnek olan komutları uyarılara göre düzenliyoruz.
 ```
   {
-    "name": "HoodRun",
-    "logo": "https://i.imgur.com/Y1VJncy.png", // profil fotosu yüklüyoruz.
+    "name": "App Name",
+    "logo": "https://imgur.com/c09XXKf.png", // profil fotosu yüklüyoruz.
     "rpc_url": "http://IPADRESIN:9944",
     "explorer_url": "http://IPADRESIN:4000",
     "metrics_endpoint": "http://IPADRESIN:9615/metrics", 
