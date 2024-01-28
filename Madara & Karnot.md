@@ -163,13 +163,14 @@ Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize
 
 Önce aşağıdaki örnek olan komutları uyarılara göre düzenliyoruz.
 ```
-{
-  "name": "App İsminiz",
-  "logo": "https://placehold.co/400x400", // 400x400 boyutunda logo herhangi bir yere yükleyip linkini alabilirsiniz.
-  "rpc_url": "http://SUNUCU IP ADRESIN:9944",
-  "explorer_url": "http://SUNUCU IP ADRESIN:4000",
-  "metrics_endpoint": "http://SUNUCU IP ADRESIN:9615",
-  "id": "" 
+  {
+    "name": "HoodRun",
+    "logo": "https://i.imgur.com/Y1VJncy.png", // profil fotosu yüklüyoruz.
+    "rpc_url": "http://IPADRESIN:9944",
+    "explorer_url": "http://IPADRESIN:4000",
+    "metrics_endpoint": "http://IPADRESIN:9615/metrics", 
+    "id": "812de564-4f60-4ea0-b35f-5e7143769fbc" // uid alıyoruz.
+  }
 ```
 * ID almak için [BURADAN](https://www.uuidgenerator.net/) siteye gidiyoruz. Refresh yapıyoruz. çıkan ID alıp kopyalıyoruz.
 
