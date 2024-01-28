@@ -153,7 +153,7 @@ screen -S roller
 ```
 cd
 cd madara-cli
-./target/release/madara explorer
+./target/release/madara explorer --host=IPADRESIN
 ```
 Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize ait explorer ulaşabilirsiniz.
 
