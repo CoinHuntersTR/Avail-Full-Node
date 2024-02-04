@@ -2,41 +2,40 @@
   
 ![image](https://pbs.twimg.com/media/GEs4hlUXAAEf03M?format=jpg&name=large)
 
-## Sistem gereksinimleri:
+## سیستم مورد نیاز
 ### Ubunutu 22.04
 NODE TİPİ | CPU     | RAM      | SSD     |
 | ------------- | ------------- | ------------- | -------- |
 | Avail  | 4         | 8         | 160  |
   
 
-# Kurulum
+# اماده سازی سرور 
 
 ```
 sudo apt-get update -y && sudo apt-get upgrade -y
 ```
-### Rust Kuralım
+### نصب rust
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-1 seçip devam ediyoruz.
 
 
 ![Ekran görüntüsü 2024-01-25 231300](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/fcfb956e-ab50-4e9d-a957-41556e883f41)
 ```
 source $HOME/.cargo/env
 ```
-* Rust versionu kontrol edelim;
+* برای اطمینان از نصب راست کد زیررا اجرا کنید
 
 ```
 rustc --version
 ```
-* versionumuz olarak bu çıkacak: rustc 1.75.0 (82e1608df 2023-12-21)
+* خروجی : rustc 1.75.0 (82e1608df 2023-12-21)
 
-### Git kuruyoruz.
+### نصب گیت.
 ```
 sudo apt install git
 ```
-### Docker Kuruyoruz.
+### نصب داکر.
 
 ```
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
@@ -60,7 +59,7 @@ sudo systemctl start docker
 sudo systemctl enable docker
 ```
 
-### Tekrar Güncelliyoruz.
+### پیش نیاز های اصلی.
 ```
 sudo apt-get update -y && sudo apt-get upgrade -y
 ```
@@ -80,7 +79,7 @@ sudo apt install clang
 sudo apt install protobuf-compiler
 ```
 
-## MADARA Kuruyoruz;
+## فراخوانی برنامه;
 ```
 git clone https://github.com/karnotxyz/madara-cli
 ```
@@ -90,38 +89,38 @@ cd madara-cli
 ```
 cargo build --release
 ```
-# Dikkat Komutu Girmeden önce alttaki görselleri ve açıklamaları okuyun.
+# کد زیر را اجرا کنید.
 ```
 ./target/release/madara init
 ```
-* Komutu başlatınca ilk olarak sizden bir chain ismi isteyecek. İstediğiniz bir ismi girebilirsiniz.
+* در اینجا اسم نود خود را انتخاب کنید.
 
 ![Ekran görüntüsü 2024-01-25 232028](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/855de031-ad14-46b7-88bc-011333f8765f)
 
-* İkinci adımdaki seçimi ENTER yapıp geçiyoruz.
+* کلید ENTER را بزنید .
 
 ![Ekran görüntüsü 2024-01-25 232058](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/5de29fce-115c-42cf-a055-fcb30d827486)
 
-* Üçüncü adımda Çalıştıracağımız DA seçiyoruz. Burada AVAIL seçimi yapacağız.
+* در اینجا DA مورد نظر را انتخاب میکنیم که AVAIL است .
 
 ![Ekran görüntüsü 2024-01-25 232115](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/ae813da1-c25c-4181-bda3-515043599c32)
 
-# Not: BURADA size yeni bir AVAIL adresi verecek onu AVAIL'de puan kastığımız cüzdan ile değiştireceğiz.
+# برنامه برای شما یک ولت جدید میسازد چنانچه به RAW SEED خود دسترسی دارید ولت خود را اضافه کنید در غیر این صورت ولتی که در اختیار شما قرار داده شده را حداقل 5 توکن شارژ کنید
 
-# Not-2: Eğer ilk defa katılacaksanız. Aşağıdaki komutu çalıştırıp içindeki bilgileri bir yere not edin. Devam etmeden önce AVAIL discordundan [BURADAN](https://discord.gg/availproject) giriyoruz. Gitcoin pass puanımızın 20 ve üzerinde olması gerekiyor. Discord ve Gitcoin Pass doğrulamasını yaptıktan sonra Goldberg Faucet kanalından node içinde oluşan cüzdana token istiyoruz. Tokenler geldikten sonra aşağıdaki işlemlere devam ediyoruz.
+# اگر کیت کوین بالای 20 دارید میتونید در دیسکورد پروژه فست دریافت کنید .
 
 
-İlk olarak aşağıdaki komutu giriyoruz. "" dahil aradaki notu silip  app'e verdiğin isimle değiştiriyorsun.
+در کد زیر نام پروژه را پاک کرده و اسم پروژه خودتون را بگذارید.
 ```
-nano /root/.madara/app-chains/"Verdiğin App name ismi"/da-config.json
+nano /root/.madara/app-chains/"نام پروژه"/da-config.json
 ```
 ![Ekran görüntüsü 2024-01-25 232340](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/88e2fd32-1109-4d78-8f1a-dce8902d44be)
 
-* Benzer bir sayda açılacak "seed":"0x... yazan yerdeki private key silip Cüzdan kelimelerimizi ekliyoruz. Son bölümdeki cüzdan adresini de AVAIL'deki cüzdan adresiyle değiştiriyoruz.
+* اینجا میتوانید ولت ساخته شده توسط برنامه را با ولت خودتان تعویض کنید.
 
-* CTRL X Y ve ENTER basıyoruz.
+* کلید enter را بزنید .
 
-### Gerekli Portları açıyoruz.
+### برای راه اندازی فایر وال و باز کردن پورت های لازم دستورات زیر را وارد کنید .
 ```
 sudo ufw enable
 sudo ufw allow 22
@@ -136,33 +135,33 @@ sudo ufw allow 30333
 sudo ufw allow 9944
 sudo ufw allow 9615
 ```
-### Yeni bir screen açalım
+### برنامه screen را نصب میکنیم
 ```
 sudo apt install screen
 ```
 ```
 screen -S roller
 ```
-### App-chaini çalıştırıyoruz.
+### زنجیره را شروع میکنیم.
 
 ```
 ./target/release/madara run
 ```
-Çalıştıktan sonra bloklar akmaya başladığında CTRL A+D ile çıkıyoruz.
+زمانی که بلاک ها شروع به صادر شدن کردند کلید CTRL + A + D را میفشاریم.
 
-### Exlporer sayfamızı çalıştıralım
+### برای ساخت صفحه اکسپلورر کد های زیر را اجرا میکنیم 
 ```
 cd
 cd madara-cli
-./target/release/madara explorer --host=IPADRESIN
+./target/release/madara explorer --host=آیپی شما
 ```
-Bu çalıştıktan sonra. http://SUNUCUIPADRESI:4000 sayfasından app-chaininize ait explorer ulaşabilirsiniz.
+به جای your ip ادرس ایپی خود را وارد کنید . http://yourip:4000 تا وارد اکسپلور شوید.
 
 ![Ekran görüntüsü 2024-01-26 003113](https://github.com/CoinHuntersTR/Avail-Full-Node/assets/111747226/b568b4b2-d4ab-4e9d-a2df-92c06fe9afb3)
 
-### En son App yayınlayalım
+### پابلیش نود
 
-Önce aşağıdaki örnek olan komutları uyarılara göre düzenliyoruz.
+کد زیر را کپی کنید.
 ```
   {
     "name": "App Name",
