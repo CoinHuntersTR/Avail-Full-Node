@@ -134,6 +134,7 @@ sudo ufw allow 43759
 sudo ufw allow 40815
 sudo ufw allow 30333
 sudo ufw allow 9944
+sudo ufw allow 9615
 ```
 ### Yeni bir screen açalım
 ```
