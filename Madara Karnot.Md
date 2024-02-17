@@ -30,7 +30,7 @@ source $HOME/.cargo/env
 ```
 rustc --version
 ```
-* versionumuz olarak bu çıkacak: rustc 1.75.0 (82e1608df 2023-12-21)
+* versionumuz  1.76 güncellenmiş. Sorun yok devam edin.
 
 ### Git kuruyoruz.
 ```
